@@ -1,0 +1,8 @@
+version: "3"
+services:
+  container1:
+    image: container1
+  container2:
+    image: container2
+    ports:
+      - "8080:8080"
